@@ -12,7 +12,8 @@ class WebpackAliyunOss {
 			accessKeyId,
 			accessKeySecret,
 			bucket,
-			ossOptions = {}
+			ossOptions = {},
+			secure = true
 		} = options;
 
 		this.config = Object.assign({
@@ -35,6 +36,7 @@ class WebpackAliyunOss {
 			accessKeyId,
 			accessKeySecret,
 			bucket,
+			secure,
 			...ossOptions
 		});
 
