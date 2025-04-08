@@ -26,7 +26,7 @@ class WebpackAliyunOss {
 			setOssPath: null,			// 手动设置每个文件的上传路径
 			setHeaders: null,			// 设置头部
 			overwrite: false,			// 覆盖oss同名文件
-			bail: false,				// 出错中断上传
+			bail: true,				// 出错中断上传
 			logToLocal: false			// 出错信息写入本地文件
 		}, options);
 
